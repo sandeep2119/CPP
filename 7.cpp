@@ -8,6 +8,6 @@ int main() {
 	int n;
 	cout<<"Enter Number : "<<endl;
 	cin>>n;
-	(n > 0 ? cout<<"Positive Number" : cout<<"Negative Number");
+	(n >= 0 ? cout<<"Positive Number" : cout<<"Negative Number");
 	return 0;
 }
