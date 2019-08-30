@@ -24,9 +24,9 @@ int main(){
 	}
 	cout<<"Sum of One Dimensional Array : "<<endl;
 	for(int i=0;i<n;i++){
-		sum = sum + array[i];
-		cout<<sum<<endl;	
+		sum = sum + array[i];	
 	}
+	cout<<sum<<endl;	
 	float avg = sum/n;
 	cout<<"Average % : "<<endl;
 	cout<<avg;
